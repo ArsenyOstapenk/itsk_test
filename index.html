@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1.0" width=device-width>
+	<link rel="stylesheet" href="libs/normalize/normalize.css">
+
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="">
+
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<title>itsk | test</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<h1 class="header__title">Список(List)</h1>
+			</div>
+		</header>
+		<section class="section section-one">
+			<div class="container">
+				<div class="section-text">
+					<div class="section-text__number">
+						<p>05</p>
+					</div>
+					<div class="section-text__desc">
+						<p>Список. Предназначен для отображения/выбора группы элементов. Может применятся как самостоятельно так и в
+							компонентах: <br> ДропЛист(все виды), Контекстное меню, меню.</p>
+					</div>
+				</div>
+				<div class="list-container">
+					<ul class="item-0">
+						<div class="item-0__title item-unit__elem">
+							<p>Item 0</p>
+						</div>
+						<li class="item-0__elem">
+							<div class="item-title">Title name</div>
+							<ul class="item-unit--border">
+								<li class="item-unit__elem">item 1.1</li>
+								<li class="item-unit__elem">item 1.2</li>
+								<li class="item-unit__elem">item 1.3</li>
+								<li class="item-unit__elem--disabled">Item disabled</li>
+							</ul>
+						</li>
+						<li class="item-0__elem">
+							<div class="item-title">Title name</div>
+							<ul class="item-unit item-unit--last">
+								<li class="item-unit__elem">item 2.1</li>
+								<li class="item-unit__elem">item 2.2</li>
+								<li class="item-unit__elem">item 2.3</li>
+								<li class="item-unit__elem">item 2.4</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="section section-two">
+			<div class="container">	
+				<div class="section-title">
+					<h1>Оформление</h1>
+				</div>
+				<div class="section-text section-two-text">
+					<div class="section-text__number">
+						<p>05</p>
+					</div>
+					<div class="section-text__desc">
+						<p>Составной компонент</p>
+					</div>
+				</div>
+				<div class="list-container">
+					<ul class="item-0">
+						<div class="item-unit__example item-unit--border">
+							<p>Любое</p>
+							<div class="example-desc">
+								<p class="example-desc__elem">Item</p>
+							</div>
+						</div>
+						<li class="item-0__elem">
+							<div class="item-unit__example item-title">
+								<p>Избранное</p>		
+								<div class="example-desc">
+									<p class="example-desc__elem">Title</p>
+								</div>
+							</div>
+							<ul class="item-unit--border">
+								<li class="item-unit__example">Аберданский хребет
+									
+								</li>
+								<li class="item-unit__example item-unit__example--active">Джомолунгма (Эверест)
+									<div class="example-desc">
+										<p class="example-desc__elem">Seleted</p>
+									</div>
+								</li>
+								<li class="item-unit__example">Ленина ипк</li>
+								<li class="item-unit__example item-unit__example--disabled">
+									<p>Саяны</p> 
+									<div class="example-desc">
+										<p class="example-desc__elem">Disabled</p>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="item-0__elem">
+							<div class="item-title item-title--sg">Title name
+								<div class="example-desc example-desc--sg">
+									<p class="example-desc__elem">Sprite group</p>
+								</div>
+							</div>
+							<ul class="item-unit item-unit--last">
+								<li class="item-unit__example item-unit__example--active">Аконкагуа
+									<div class="example-desc">
+										<p class="example-desc__elem">Hover</p>
+									</div>
+								</li>
+								<li class="item-unit__example">Дхаулагири</li>
+								<li class="item-unit__example">Логан</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="section section-three">
+			<div class="container">
+				<div class="section-three__title">
+					<div class="section-text section-three-text">
+						<div class="section-text__number">
+							<p>05</p>
+						</div>
+						<div class="section-text__desc">
+							<p>Список можно разделить на группы с заголовком или без. При наведении заголовок не выделяется.</p>
+						</div>
+					</div>
+					<div class="section-text section-three-text">
+						<div class="section-text__number">
+							<p>05</p>
+						</div>
+						<div class="section-text__desc">
+							<p>Заблокированный пункт становиться не активным и прозрачным 50%.</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-three__container">
+					<div class="left-side">
+						<div class="list-container list-container-three">
+							<ul class="item-0">
+								<div class="item-0__title item-unit__elem">
+									<p>Item 0</p>
+								</div>
+								<li class="item-0__elem">
+									<div class="item-title">Title name</div>
+									<ul class="item-unit--border">
+										<li class="item-unit__elem">item 1.1</li>
+										<li class="item-unit__elem">item 1.2</li>
+										<li class="item-unit__elem">item 1.3</li>
+										<li class="item-unit__elem--disabled">Item disabled</li>
+									</ul>
+								</li>
+								<li class="item-0__elem">
+									<div class="item-title">Title name</div>
+									<ul class="item-unit item-unit--last">
+										<li class="item-unit__elem">item 2.1</li>
+										<li class="item-unit__elem">item 2.2</li>
+										<li class="item-unit__elem">item 2.3</li>
+										<li class="item-unit__elem">item 2.4</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="list-container">
+							<ul class="item-unit">
+								<li class="item-unit__elem">Item 0</li>
+								<li class="item-unit__elem">Item 1</li>
+								<li class="item-unit__elem">Item 2</li>
+								<li class="item-unit__elem">Item 3</li>
+								<li class="item-unit__elem">Item 4</li>
+							</ul>
+						</div>
+					</div>
+					<div class="center-side">
+						<div class="list-container">
+							<ul class="item-unit">
+								<li class="item-unit__elem-two">Item 0</li>
+								<li class="item-unit__elem-two">Item 1</li>
+								<li class="item-unit__elem-two">Item 2</li>
+								<li class="item-unit__elem-two">Item 3</li>
+								<li class="item-unit__elem-two">Item 4</li>
+							</ul>
+						</div>
+						<div class="list-container">
+							<ul class="list-control">
+								<li class="list-control__item">Экспортировать</li>
+								<li class="list-control__item">Редактировать</li>
+								<li class="list-control__item">Обновить</li>
+							</ul>
+						</div>
+					</div>
+					<div class="right-side">
+						<div class="list-container">
+							<ul class="list-mountains">
+								<li class="list-mountains__item">Абердарский хребет<!-- <div class="check"><i class="fa fa-check" aria-hidden="true"></i></div> --></li>
+								<li class="list-mountains__item">Джомолунгма (Эверест)</li>
+								<li class="list-mountains__item">Ленина пик</li>
+								<li class="list-mountains__item">Саяны</li>
+								<li class="list-mountains__item">Аконкагуа</li>
+								<li class="list-mountains__item">Дхаулагири</li>
+								<li class="list-mountains__item">Логан</li>
+								<li class="list-mountains__item">Скалистые горы</li>
+							</ul>
+						</div>
+					</div>
+
+
+					
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="libs/jquery/jquery.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
